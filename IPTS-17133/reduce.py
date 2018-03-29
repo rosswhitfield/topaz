@@ -1,0 +1,13 @@
+SingleCrystalDiffuseReduction(Filename='TOPAZ_21629:21679',
+                              SolidAngle='/SNS/TOPAZ/IPTS-17133/shared/calibration/solidAngle21368.nxs',
+                              Flux='/SNS/TOPAZ/IPTS-17133/shared/calibration/spectra21368.nxs',
+                              Background='TOPAZ_21368',
+                              UBMatrix='/SNS/TOPAZ/IPTS-17133/shared/Sr_100K/CrystalPlan/CP_UB.mat',
+                              DetCal='/SNS/TOPAZ/IPTS-17133/shared/calibration/TOPAZ_2016B.DetCal',
+                              OutputWorkspace='output',
+                              BinningDim0='-10.02,10.02,501',
+                              BinningDim1='-10.02,10.02,501',
+                              BinningDim2='-25.05,25.05,501',
+                              FilterByTofMin=500,
+                              FilterByTofMax=16600,
+                              KeepTemporaryWorkspaces=True)

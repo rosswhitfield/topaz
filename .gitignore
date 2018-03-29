@@ -1,4 +1,10 @@
-*~
-*.nxs
-*.h5
-*.npy
+# Blacklist everything
+*
+# Whitelist .gitignore
+!.gitignore
+# Whitelist all directories
+!*/
+# Whitelist *.py
+!*.py
+!*.ipynb
+.ipynb_checkpoints/
